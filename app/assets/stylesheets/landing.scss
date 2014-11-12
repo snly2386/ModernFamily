@@ -1,0 +1,320 @@
+.landing{
+	background-color: black;
+	.video{
+		z-index: 100;
+		width: 100%;
+		background-image: url('modern_background.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.title{
+		text-align: center;
+		color: white;
+		z-index: 100;
+		position: absolute;
+		width: 100%;
+		top: 30%;
+		h1{ font-size: 4em;}
+		p{font-size: 2.5em;}
+		.down-arrow{
+			cursor: pointer;
+			z-index: 100;
+			width: 70px;
+			height:70px;
+			border: 5px solid white;
+			border-radius: 50px;
+			i{ font-size: 4em; margin-top: 10px;color: white;}
+			.fa-arrow-down:hover{
+				color: rgb(234, 52, 142) !important;
+			}
+		}
+		.down-arrow:hover{
+			background-color: white;
+		}
+	}
+	.middle-container{
+		// background-image: url('modern_wallpaper_2.jpg');
+		background-color: rgb(14, 14, 37);
+		z-index: 100;
+		width: 100%;
+		.seasons-title{
+			text-align: center;
+			font-family: 'Changa One', cursive;
+			color: white;
+			h1{font-size: 4em;}
+		}
+		.seasons{
+			padding-bottom: 10px;
+			width: 730px;
+			height: 500px;
+			.season-image{
+				margin-top: 20px;
+				float: left;
+				width: 220px;
+				margin-right: 20px;
+				img{ width: 100%;}
+			}
+		}
+	}
+	.season1-container{
+			display: none;
+			width: 100%;
+			z-index: 400;
+			background-color: rgba(108, 49, 76, 0.53);
+			overflow-y: auto;
+			position: fixed;
+			height: 600px;
+			top: 10%;
+			bottom: 10%;
+			padding-bottom: 20px;
+		.season-1{
+			width: 96%;
+			.season1-row{
+				position: relative;
+				margin-top: 20px;
+				padding-left: 10px;
+				max-width: 1364px;
+				.close{
+					cursor: pointer;
+					height: 50px;
+					i{ color: white; font-size: 3em; position: absolute; right: 0;}
+				}
+				.season1-video{
+					margin-top: 20px;
+					float: left;
+					// width: 180px;
+					width: 316px;
+					margin-right: 20px;
+					.img{
+						width: 100%;
+						img{ width: 100%;}
+					}
+				}
+				.season1-video:hover{
+				}
+			}
+		}
+	}
+		.season2-container{
+			display: none;
+			width: 100%;
+			z-index: 400;
+			background-color: rgba(108, 49, 76, 0.53);
+			overflow-y: auto;
+			position: fixed;
+			height: 600px;
+			top: 10%;
+			bottom: 10%;
+			padding-bottom: 20px;
+		.season-2{
+			width: 96%;
+			.season2-row{
+				position: relative;
+				margin-top: 20px;
+				padding-left: 10px;
+				max-width: 1364px;
+				.close{
+					cursor: pointer;
+					height: 50px;
+					i{ color: white; font-size: 3em; position: absolute; right: 0;}
+				}
+				.season2-video{
+					margin-top: 20px;
+					float: left;
+					// width: 180px;
+					width: 316px;
+					margin-right: 20px;
+					.img{
+						width: 100%;
+						img{ width: 100%;}
+					}
+				}
+				.season2-video:hover{
+				}
+			}
+		}
+	}
+		.season3-container{
+			width: 100%;
+			display: none;
+			z-index: 400;
+			background-color: rgba(108, 49, 76, 0.53);
+			overflow-y: auto;
+			position: fixed;
+			height: 600px;
+			top: 10%;
+			bottom: 10%;
+			padding-bottom: 20px;
+		.season-3{
+			width: 96%;
+			.season3-row{
+				position: relative;
+				margin-top: 20px;
+				padding-left: 10px;
+				max-width: 1364px;
+				.close{
+					cursor: pointer;
+					height: 50px;
+					i{ color: white; font-size: 3em; position: absolute; right: 0;}
+				}
+				.season3-video{
+					margin-top: 20px;
+					float: left;
+					// width: 180px;
+					width: 316px;
+					margin-right: 20px;
+					.img{
+						width: 100%;
+						img{ width: 100%;}
+					}
+				}
+			}
+		}
+	}
+		.season4-container{
+			width: 100%;
+			display: none;
+			z-index: 400;
+			background-color: rgba(108, 49, 76, 0.53);
+			overflow-y: auto;
+			position: fixed;
+			height: 600px;
+			top: 10%;
+			bottom: 10%;
+			padding-bottom: 20px;
+		.season-4{
+			width: 96%;
+			.season4-row{
+				position: relative;
+				margin-top: 20px;
+				padding-left: 10px;
+				max-width: 1364px;
+				.close{
+					cursor: pointer;
+					height: 50px;
+					i{ color: white; font-size: 3em; position: absolute; right: 0;}
+				}
+				.season4-video{
+					margin-top: 20px;
+					float: left;
+					// width: 180px;
+					width: 316px;
+					margin-right: 20px;
+					.img{
+						width: 100%;
+						img{ width: 100%;}
+					}
+				}
+			}
+		}
+	}
+		.season5-container{
+			display: none;
+			width: 100%;
+			z-index: 400;
+			background-color: rgba(108, 49, 76, 0.53);
+			overflow-y: auto;
+			position: fixed;
+			height: 600px;
+			top: 10%;
+			bottom: 10%;
+			padding-bottom: 20px;
+		.season-5{
+			width: 96%;
+			.season5-row{
+				position: relative;
+				margin-top: 20px;
+				padding-left: 10px;
+				max-width: 1364px;
+				.close{
+					cursor: pointer;
+					height: 50px;
+					i{ color: white; font-size: 3em; position: absolute; right: 0;}
+				}
+				.season5-video{
+					margin-top: 20px;
+					float: left;
+					// width: 180px;
+					width: 316px;
+					margin-right: 20px;
+					.img{
+						width: 100%;
+						img{ width: 100%;}
+					}
+				}
+			}
+		}
+	}
+	.season6-container{
+		display: none;
+		background-color: black;
+		width: 100%;
+		z-index: 400;
+		text-align: center;
+		position: fixed;
+		top: 10%;
+		color: white;
+		.close{
+			cursor: pointer;
+			i{ color: white; font-size: 3em; position: absolute; right: 10px;}
+		}
+		h1{font-size: 5em;}
+		.season6-image{
+			width: 300px;
+			img { width: 100%;}
+		}
+	}
+	.overlay{
+		display: none;
+		z-index: 350;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		background-color: rgba(21, 20, 20, 0.87);
+	}
+	.video-overlay{
+		display: none;
+		z-index: 450;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		background-color: rgba(21, 20, 20, 0.87);
+	}
+	.video-player-container{
+		display: none;
+		z-index: 1000;
+		position: fixed;
+		top: 200px;
+		width: 100%;
+		.video-player{
+			width: 50%;
+		}
+		.next-episode{
+			cursor: pointer;
+			width: 300px;
+			 text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  			-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  			-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+ 			 -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  			transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+			margin-top: 20px;
+			text-align: center;
+			color: rgba(255,255,255,1);
+			i{font-size: 3em; color: rgba(255,255,255,1);}
+		}
+		.next-episode:hover{
+			text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+		}
+	}
+	.close-video{
+		display: none;
+		position: fixed;
+		top: 10px;
+		width: 40px;
+		right: 10px;
+		z-index: 1000;
+		i{ font-size: 3em; right: 10px; color: white;}
+	}
+}
